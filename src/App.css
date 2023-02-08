@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.panner{
+    /* transform:scale(1.04);
+    transition: all 0.9s ease-in-out ; */
+    max-height: 650px;
+    width: 91%;
+    border-radius: 35px;
+    margin: 0 auto;   
+}
+.overlay{
+    position: absolute;
+    color: white;
+    bottom: 9vw;
+    left: 9vw;
+    font-size: 4vw;
+    line-height: 4.9vw;
+    text-align: start;
+}
+
+
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
